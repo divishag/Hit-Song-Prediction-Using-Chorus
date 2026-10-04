@@ -1,0 +1,27 @@
+
+========================================
+GRADIENT BOOSTING LEAKAGE-FREE 5-FOLD CV
+========================================
+Fitting 5 folds for each of 54 candidates, totalling 270 fits
+
+========================================
+BEST GRADIENT BOOSTING PARAMETERS
+========================================
+{'model__learning_rate': 0.1, 'model__max_depth': 3, 'model__n_estimators': 200, 'model__subsample': 1.0}
+Best CV balanced accuracy: 0.6048
+
+========================================
+GRADIENT BOOSTING FINAL TEST
+========================================
+Accuracy: 0.7153
+Balanced Accuracy: 0.6695
+Precision: 0.7449
+Recall: 0.8391
+F1: 0.7892
+ROC-AUC: 0.791
+
+Confusion Matrix:
+[[25 25]
+ [14 73]]
+
+PCA components in final fitted pipeline: 136

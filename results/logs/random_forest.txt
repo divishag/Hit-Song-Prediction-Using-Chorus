@@ -1,0 +1,38 @@
+
+========================================
+DATA PREPARATION
+========================================
+Full dataset: (548, 518)
+Hits: 347
+Non-hits: 201
+Train: (411, 518)
+Test: (137, 518)
+PCA components: 136
+Explained variance: 0.9505744669382096
+
+========================================
+RANDOM FOREST 5-FOLD CROSS-VALIDATION
+========================================
+Fitting 5 folds for each of 72 candidates, totalling 360 fits
+
+========================================
+BEST RANDOM FOREST PARAMETERS
+========================================
+Best parameters: {'max_depth': 5, 'max_features': 'log2', 'min_samples_split': 2, 'n_estimators': 200}
+Best CV balanced accuracy: 0.6358
+
+========================================
+Random Forest
+========================================
+Accuracy: 0.7664
+Balanced Accuracy: 0.7651
+Precision: 0.8481
+Recall: 0.7701
+F1: 0.8072
+ROC-AUC: 0.8184
+
+Confusion Matrix:
+[[38 12]
+ [20 67]]
+
+Saved metrics to: results/metrics/model_metrics.csv

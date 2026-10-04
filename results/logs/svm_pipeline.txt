@@ -1,0 +1,27 @@
+
+========================================
+SVM LEAKAGE-FREE 5-FOLD CV
+========================================
+Fitting 5 folds for each of 26 candidates, totalling 130 fits
+
+========================================
+BEST SVM PARAMETERS
+========================================
+{'model__C': 0.01, 'model__kernel': 'linear'}
+Best CV balanced accuracy: 0.6515
+
+========================================
+SVM FINAL TEST
+========================================
+Accuracy: 0.7591
+Balanced Accuracy: 0.738
+Precision: 0.8068
+Recall: 0.8161
+F1: 0.8114
+ROC-AUC: 0.8048
+
+Confusion Matrix:
+[[33 17]
+ [16 71]]
+
+PCA components in final fitted pipeline: 136

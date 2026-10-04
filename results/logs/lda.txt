@@ -1,0 +1,27 @@
+
+========================================
+DATA PREPARATION
+========================================
+Full dataset: (548, 518)
+Hits: 347
+Non-hits: 201
+Train: (411, 518)
+Test: (137, 518)
+PCA components: 136
+Explained variance: 0.9505744669382096
+
+========================================
+Linear Discriminant Analysis
+========================================
+Accuracy: 0.7737
+Balanced Accuracy: 0.758
+Precision: 0.8256
+Recall: 0.8161
+F1: 0.8208
+ROC-AUC: 0.7995
+
+Confusion Matrix:
+[[35 15]
+ [16 71]]
+
+Saved metrics to: results/metrics/model_metrics.csv

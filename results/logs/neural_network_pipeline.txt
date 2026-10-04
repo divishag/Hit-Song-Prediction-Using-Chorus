@@ -1,0 +1,27 @@
+
+========================================
+NEURAL NETWORK LEAKAGE-FREE 5-FOLD CV
+========================================
+Fitting 5 folds for each of 48 candidates, totalling 240 fits
+
+========================================
+BEST NEURAL NETWORK PARAMETERS
+========================================
+{'model__activation': 'tanh', 'model__alpha': 0.001, 'model__hidden_layer_sizes': (32,), 'model__learning_rate_init': 0.001}
+Best CV balanced accuracy: 0.6405
+
+========================================
+NEURAL NETWORK FINAL TEST
+========================================
+Accuracy: 0.7226
+Balanced Accuracy: 0.7051
+Precision: 0.7882
+Recall: 0.7701
+F1: 0.7791
+ROC-AUC: 0.7715
+
+Confusion Matrix:
+[[32 18]
+ [20 67]]
+
+PCA components in final fitted pipeline: 136

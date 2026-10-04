@@ -1,0 +1,38 @@
+
+========================================
+DATA PREPARATION
+========================================
+Full dataset: (548, 518)
+Hits: 347
+Non-hits: 201
+Train: (411, 518)
+Test: (137, 518)
+PCA components: 136
+Explained variance: 0.9505744669382096
+
+========================================
+GRADIENT BOOSTING 5-FOLD CROSS-VALIDATION
+========================================
+Fitting 5 folds for each of 54 candidates, totalling 270 fits
+
+========================================
+BEST GRADIENT BOOSTING PARAMETERS
+========================================
+Best parameters: {'learning_rate': 0.1, 'max_depth': 1, 'n_estimators': 100, 'subsample': 0.8}
+Best CV balanced accuracy: 0.6026
+
+========================================
+Gradient Boosting
+========================================
+Accuracy: 0.708
+Balanced Accuracy: 0.6425
+Precision: 0.7196
+Recall: 0.8851
+F1: 0.7938
+ROC-AUC: 0.7848
+
+Confusion Matrix:
+[[20 30]
+ [10 77]]
+
+Saved metrics to: results/metrics/model_metrics.csv

@@ -1,0 +1,138 @@
+artist,song,actual,predicted,score,correct
+Ed Sheeran,New Man,1,0,0.09802244795040607,False
+Drake,Wu-Tang Forever,1,1,0.7260129020251183,True
+Jason Aldean,Comin’ in Hot,0,0,0.04526145286609749,True
+Jason Aldean,Staring at the Sun,0,0,0.12469554781237954,True
+Taylor Swift,Tim McGraw,1,1,0.9416023116057728,True
+Drake,Shabang,1,1,0.9897089722588851,True
+Taylor Swift,22,1,1,0.9856178228981411,True
+Drake,March 14,1,1,0.9996313052332096,True
+Drake,Finesse,1,1,0.9196755536862409,True
+Morgan Wallen,Still Goin Down,1,1,0.9066686071702066,True
+Ariana Grande,Best Mistake,1,1,0.9913240378950736,True
+Taylor Swift,Haunted,1,1,0.8226084477186842,True
+Luke Bryan,Kansas,0,0,0.21778576016521806,True
+Ed Sheeran,Remember the Name,1,1,0.9343306783511378,True
+Drake,With You,1,1,0.9833366951598932,True
+Taylor Swift,Love Story,1,1,0.9110072280194175,True
+Taylor Swift,Cruel Summer,1,0,0.04799320163504948,False
+Jason Aldean,What’s a Little Heartache,0,1,0.5357185263179604,False
+Morgan Wallen,Sunrise,1,1,0.7114926086963188,True
+Morgan Wallen,Somebody’s Problem,1,0,0.38655063341110857,False
+Luke Bryan,First Love Song,0,1,0.7221424155920133,False
+Jason Aldean,This Bar Don’t Work Anymore,0,0,0.3755493937621887,True
+Taylor Swift,I Can Do It With a Broken Heart,1,1,0.9783617252844862,True
+Ariana Grande,better off,0,1,0.992622509701204,False
+Ed Sheeran,First Times,0,1,0.6376320941693134,False
+Jason Aldean,Cowboy Killer,0,0,0.49763412273352237,True
+Ed Sheeran,Leave Your Life,0,1,0.9804228291786234,False
+Morgan Wallen,Heartless (Wallen album mix),0,1,0.6993451464605047,False
+Morgan Wallen,TN,1,1,0.9747742859969868,True
+Luke Bryan,I See You,1,1,0.8898828029529304,True
+Jason Aldean,Rock and Roll Cowboy,0,1,0.5070343641268837,False
+Morgan Wallen,Single Than She Was,1,1,0.9455563951103545,True
+Taylor Swift,Who’s Afraid of Little Old Me?,1,0,0.413676380996625,False
+Taylor Swift,cowboy like me,1,1,0.9543403646571754,True
+Taylor Swift,Sweet Nothing,1,1,0.9902995349300966,True
+Jason Aldean,Gettin’ Warmed Up,0,0,0.4596191730134077,True
+Ed Sheeran,Castle on the Hill,1,1,0.9524980462693531,True
+Jason Aldean,Try That in a Small Town,1,0,0.09091397783875042,False
+Morgan Wallen,If I Know Me,0,1,0.6584070347119417,False
+Drake,On BS,1,1,0.988250632070202,True
+Taylor Swift,willow,1,1,0.9328508176724312,True
+Jason Aldean,Dirt to Dust,0,0,0.2785324055600057,True
+Ed Sheeran,No Strings,0,1,0.6081504533505049,False
+Drake,7969 Santa,1,1,0.939679006216868,True
+Ed Sheeran,2step,1,1,0.9886900371901515,True
+Taylor Swift,False God,1,1,0.9345354287307712,True
+Drake,PIMMIE’S DILEMMA,1,0,0.33248195032090905,False
+Drake,Childs Play,1,1,0.9076516759528687,True
+Ariana Grande,kiss me,1,1,0.8914398229315208,True
+Taylor Swift,I Almost Do,1,0,0.45825824593932635,False
+Ariana Grande,Baby I,1,1,0.5800208393173112,True
+Ariana Grande,Hands on Me,0,1,0.8723028509688331,False
+Jason Aldean,This Nothin’ Town,0,1,0.7046600627937354,False
+Drake,Yebba’s Heartbreak,1,0,0.43239056135405074,False
+Taylor Swift,Welcome to New York,1,1,0.9822136216592259,True
+Drake,IMY2,1,1,0.9981015766531612,True
+Luke Bryan,Way Way Back,0,0,0.2964292328838605,True
+Jason Aldean,The Heartache That Don’t Stop Hurting,0,1,0.7744696894953895,False
+Taylor Swift,How You Get the Girl,0,1,0.8171478414111656,False
+Drake,High Fives,1,1,0.9894030733948967,True
+Taylor Swift,"So Long, London",1,1,0.9685009636261748,True
+Taylor Swift,Call It What You Want,1,1,0.9957736144050838,True
+Jason Aldean,Do You Wish It Was Me,0,0,0.4499242335721435,True
+Ariana Grande,don’t wanna break up again,1,1,0.6177830452057597,True
+Jason Aldean,Even If I Wanted To,0,0,0.37499668877866454,True
+Luke Bryan,Land of a Million Songs,0,0,0.10896073523097467,True
+Ariana Grande,in my head,1,1,0.9960302869013979,True
+Ed Sheeran,Antisocial,1,1,0.7247325982665137,True
+Drake,After Dark,1,1,0.7097535335719208,True
+Drake,Tried Our Best,1,1,0.9288469548651649,True
+Drake,Hype,1,1,0.9990261780715072,True
+Drake,Love All,1,1,0.9979953884389956,True
+Jason Aldean,Water Tower,0,1,0.7911310350082076,False
+Ariana Grande,God is a woman,1,1,0.943776575537095,True
+Taylor Swift,epiphany,1,1,0.981994867699823,True
+Jason Aldean,Black Tears,0,0,0.2512210532088879,True
+Morgan Wallen,20 Cigarettes,1,1,0.9942710344531078,True
+Morgan Wallen,865,1,1,0.8789582565586441,True
+Luke Bryan,To the Moon and Back,0,1,0.8720451441790209,False
+Drake,True Bestie,1,1,0.9928056051292546,True
+Jason Aldean,My Memory Ain’t What It Used to Be,0,1,0.5305025314564442,False
+Drake,Dust,1,1,0.9575706630793618,True
+Drake,Fear of Heights,1,1,0.9866504745907458,True
+Drake,3AM on Glenwood,0,1,0.878674705549784,False
+Jason Aldean,Texas Was You,0,1,0.8356145622879865,False
+Taylor Swift,The Lucky One,0,1,0.7215622797411108,False
+Taylor Swift,Mine,1,1,0.9825984904108879,True
+Luke Bryan,Doin’ My Thing,0,0,0.4246991943857093,True
+Taylor Swift,Cornelia Street,1,1,0.8095438216009473,True
+Taylor Swift,The Man,1,1,0.98442521133948,True
+Jason Aldean,Relentless,0,0,0.020001120008497426,True
+Jason Aldean,Get Away From You,0,0,0.3197082542369697,True
+Jason Aldean,Don’t You Wanna Stay,1,0,0.4890809621763902,False
+Luke Bryan,Roller Coaster,1,0,0.08026253621174835,False
+Luke Bryan,For the Kids,0,0,0.41849365579773296,True
+Morgan Wallen,Whiskey Friends,1,1,0.8820119694713418,True
+Drake,305 to My City,0,1,0.9975107644411789,False
+Jason Aldean,When the Lights Go Out,0,0,0.16806824913983717,True
+Drake,Mob Ties,1,1,0.9824578990416502,True
+Morgan Wallen,Miami,1,1,0.8932161896893631,True
+Luke Bryan,"Love You, Miss You, Mean It",1,0,0.37454934545170304,False
+Ariana Grande,7 rings,1,1,0.982450192970925,True
+Jason Aldean,Feel That Again,0,1,0.7660052805686587,False
+Taylor Swift,Down Bad,1,1,0.9841288325033537,True
+Luke Bryan,I Did It Again,0,0,0.17790108225041626,True
+Ed Sheeran,The City,0,1,0.9788138685393042,False
+Ariana Grande,34+35,1,1,0.994700695046284,True
+Taylor Swift,London Boy,1,1,0.9452833155722724,True
+Morgan Wallen,Kick Myself,1,0,0.388487911001563,False
+Ed Sheeran,Kiss Me,0,1,0.9905684628267344,False
+Morgan Wallen,Eyes Are Closed,1,1,0.9782172993340226,True
+Taylor Swift,The Story of Us,1,0,0.2558240401169438,False
+Drake,Janice STFU,1,1,0.7924641218325443,True
+Jason Aldean,Songs About Us,0,0,0.27224574839642557,True
+Ed Sheeran,Photograph,1,1,0.7567060235231649,True
+Luke Bryan,Light It Up,1,1,0.8652930877729145,True
+Drake,Stuck,1,1,0.8751189583719703,True
+Jason Aldean,Laughed Until We Cried,1,0,0.2903773061008466,False
+Jason Aldean,The State I’m In,0,0,0.3037318922967549,True
+Ariana Grande,my hair,1,1,0.994279109490332,True
+Drake,Elevate,1,1,0.9956024764490742,True
+Ed Sheeran,Drunk,0,0,0.3322172155523769,True
+Drake,SOMEBODY LOVES ME,1,1,0.98505622049119,True
+Morgan Wallen,Happy Hour,0,0,0.3821236566422198,True
+Jason Aldean,Fight a Fire,0,1,0.7355720877119415,False
+Luke Bryan,Blood Brothers,0,1,0.5801305261660539,False
+Morgan Wallen,Revelation,1,1,0.9077543396789107,True
+Jason Aldean,Rather Watch You,0,0,0.40541087553117017,True
+Luke Bryan,Tackle Box,0,0,0.46460216603389526,True
+Drake,National Treasures,1,1,0.9544263325115779,True
+Jason Aldean,The Only Way I Know,1,1,0.8633468842079306,True
+Drake,Away From Home,1,1,0.9851017482289608,True
+Taylor Swift,Look What You Made Me Do,1,1,0.9476394774764545,True
+Drake,That’s How You Feel,1,1,0.914602907841779,True
+Morgan Wallen,Cover Me Up,1,1,0.925428768152996,True
+Jason Aldean,Blacktop Gone,0,0,0.45244621931404067,True
+Drake,Liability,1,1,0.9443642366260838,True

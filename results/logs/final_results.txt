@@ -1,0 +1,129 @@
+
+========================================
+Logistic Regression
+========================================
+Accuracy: 0.7226
+Balanced Accuracy: 0.7051
+Precision: 0.7882
+Recall: 0.7701
+F1: 0.7791
+ROC-AUC: 0.7508
+
+Confusion Matrix:
+[[32 18]
+ [20 67]]
+
+========================================
+Logistic Regression Balanced
+========================================
+Accuracy: 0.7226
+Balanced Accuracy: 0.7221
+Precision: 0.8182
+Recall: 0.7241
+F1: 0.7683
+ROC-AUC: 0.7552
+
+Confusion Matrix:
+[[36 14]
+ [24 63]]
+
+========================================
+Linear Discriminant Analysis
+========================================
+Accuracy: 0.7737
+Balanced Accuracy: 0.758
+Precision: 0.8256
+Recall: 0.8161
+F1: 0.8208
+ROC-AUC: 0.7995
+
+Confusion Matrix:
+[[35 15]
+ [16 71]]
+
+========================================
+SVM
+========================================
+Accuracy: 0.7591
+Balanced Accuracy: 0.738
+Precision: 0.8068
+Recall: 0.8161
+F1: 0.8114
+ROC-AUC: 0.8048
+
+Confusion Matrix:
+[[33 17]
+ [16 71]]
+
+========================================
+Random Forest Balanced
+========================================
+Accuracy: 0.7518
+Balanced Accuracy: 0.7493
+Precision: 0.8354
+Recall: 0.7586
+F1: 0.7952
+ROC-AUC: 0.8202
+
+Confusion Matrix:
+[[37 13]
+ [21 66]]
+
+========================================
+Random Forest Unbalanced
+========================================
+Accuracy: 0.6496
+Balanced Accuracy: 0.52
+Precision: 0.6444
+Recall: 1.0
+F1: 0.7838
+ROC-AUC: 0.7924
+
+Confusion Matrix:
+[[ 2 48]
+ [ 0 87]]
+
+========================================
+Gradient Boosting
+========================================
+Accuracy: 0.7153
+Balanced Accuracy: 0.6695
+Precision: 0.7449
+Recall: 0.8391
+F1: 0.7892
+ROC-AUC: 0.791
+
+Confusion Matrix:
+[[25 25]
+ [14 73]]
+
+========================================
+Neural Network
+========================================
+Accuracy: 0.7226
+Balanced Accuracy: 0.7051
+Precision: 0.7882
+Recall: 0.7701
+F1: 0.7791
+ROC-AUC: 0.7715
+
+Confusion Matrix:
+[[32 18]
+ [20 67]]
+
+========================================
+FINAL RESULTS SAVED
+========================================
+                       model  accuracy  balanced_accuracy       f1  roc_auc
+Linear Discriminant Analysis  0.773723           0.758046 0.820809 0.799540
+      Random Forest Balanced  0.751825           0.749310 0.795181 0.820230
+                         SVM  0.759124           0.738046 0.811429 0.804828
+Logistic Regression Balanced  0.722628           0.722069 0.768293 0.755172
+         Logistic Regression  0.722628           0.705057 0.779070 0.750805
+              Neural Network  0.722628           0.705057 0.779070 0.771494
+           Gradient Boosting  0.715328           0.669540 0.789189 0.791034
+    Random Forest Unbalanced  0.649635           0.520000 0.783784 0.792414
+
+Metrics: results/metrics/model_metrics.csv
+Best parameters: results/metrics/best_params.csv
+Predictions: results/predictions

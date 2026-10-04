@@ -1,0 +1,38 @@
+
+========================================
+DATA PREPARATION
+========================================
+Full dataset: (548, 518)
+Hits: 347
+Non-hits: 201
+Train: (411, 518)
+Test: (137, 518)
+PCA components: 136
+Explained variance: 0.9505744669382096
+
+========================================
+SVM 5-FOLD CROSS-VALIDATION
+========================================
+Fitting 5 folds for each of 26 candidates, totalling 130 fits
+
+========================================
+BEST SVM PARAMETERS
+========================================
+Best parameters: {'C': 0.01, 'kernel': 'linear'}
+Best CV balanced accuracy: 0.6647
+
+========================================
+SVM
+========================================
+Accuracy: 0.7591
+Balanced Accuracy: 0.738
+Precision: 0.8068
+Recall: 0.8161
+F1: 0.8114
+ROC-AUC: 0.8048
+
+Confusion Matrix:
+[[33 17]
+ [16 71]]
+
+Saved metrics to: results/metrics/model_metrics.csv

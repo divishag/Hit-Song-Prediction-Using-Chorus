@@ -1,0 +1,38 @@
+
+========================================
+DATA PREPARATION
+========================================
+Full dataset: (548, 518)
+Hits: 347
+Non-hits: 201
+Train: (411, 518)
+Test: (137, 518)
+PCA components: 136
+Explained variance: 0.9505744669382096
+
+========================================
+NEURAL NETWORK 5-FOLD CROSS-VALIDATION
+========================================
+Fitting 5 folds for each of 48 candidates, totalling 240 fits
+
+========================================
+BEST NEURAL NETWORK PARAMETERS
+========================================
+Best parameters: {'activation': 'relu', 'alpha': 0.0001, 'hidden_layer_sizes': (64, 32), 'learning_rate_init': 0.01}
+Best CV balanced accuracy: 0.6502
+
+========================================
+Neural Network
+========================================
+Accuracy: 0.7226
+Balanced Accuracy: 0.6838
+Precision: 0.7579
+Recall: 0.8276
+F1: 0.7912
+ROC-AUC: 0.78
+
+Confusion Matrix:
+[[27 23]
+ [15 72]]
+
+Saved metrics to: results/metrics/model_metrics.csv
