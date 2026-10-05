@@ -33,6 +33,5 @@ temp/
 allin1_output/
 
 # Logs
-*.logdata/structure/
 data/structure/
 Presentation1.pptx
