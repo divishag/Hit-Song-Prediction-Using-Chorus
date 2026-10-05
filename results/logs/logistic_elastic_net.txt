@@ -1,0 +1,26 @@
+
+========================================
+ELASTIC-NET LOGISTIC REGRESSION
+LEAKAGE-FREE 5-FOLD CV
+========================================
+Fitting 5 folds for each of 20 candidates, totalling 100 fits
+
+========================================
+BEST ELASTIC-NET LR PARAMETERS
+========================================
+{'model__alpha': 0.1, 'model__l1_ratio': 0.25}
+Best CV F1: 0.7646
+
+========================================
+ELASTIC-NET LR FINAL TEST
+========================================
+Accuracy: 0.7518
+F1: 0.8172
+Precision: 0.7677
+Recall: 0.8736
+
+Confusion Matrix:
+[[27 23]
+ [11 76]]
+
+PCA components: 136

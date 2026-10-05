@@ -1,0 +1,26 @@
+
+========================================
+SHRINKAGE LDA
+LEAKAGE-FREE 5-FOLD CV
+========================================
+Fitting 5 folds for each of 7 candidates, totalling 35 fits
+
+========================================
+BEST SHRINKAGE LDA PARAMETERS
+========================================
+{'model__shrinkage': 0.5}
+Best CV F1: 0.7498
+
+========================================
+SHRINKAGE LDA FINAL TEST
+========================================
+Accuracy: 0.7518
+F1: 0.7976
+Precision: 0.8272
+Recall: 0.7701
+
+Confusion Matrix:
+[[36 14]
+ [20 67]]
+
+PCA components: 136

@@ -1,19 +1,36 @@
 # Python
-venv/
 __pycache__/
 *.pyc
+venv/
+.venv/
 
 # macOS
 .DS_Store
 
-# Downloaded / generated audio
-data/songs/
+# Audio / demo files
+demo_songs/
 data/choruses/
+data/songs/
+*.wav
+*.mp3
+*.m4a
+*.flac
 
-# All-In-One generated structure files
-data/structure/
-src/archive/
+# Local tools / binaries
+tools/
+ffmpeg
+ffprobe
 
-# Local binaries
-tools/ffmpeg
-tools/ffprobe
+# Generated model files
+models/*.joblib
+models/*.pkl
+models/*.h5
+models/*.keras
+
+# All-In-One / temp outputs
+tmp/
+temp/
+allin1_output/
+
+# Logs
+*.logdata/structure/
