@@ -82,7 +82,7 @@ grid_search = GridSearchCV(
     param_grid=param_grid,
     cv=5,
 
-    # Stanford reports F1, accuracy, precision and recall.
+
     # F1 is used here to choose the final configuration.
     scoring="f1",
 

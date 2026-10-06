@@ -58,23 +58,7 @@ def get_test_metadata():
 
 def get_data():
 
-    df = pd.read_csv(DATA_FILE)
-
-    feature_cols = [
-        f"f{i}"
-        for i in range(1, 519)
-    ]
-
-    X = df[feature_cols].values
-    y = df["hit"].values
-
-    X_train, X_test, y_train, y_test = train_test_split(
-        X,
-        y,
-        test_size=0.25,
-        stratify=y,
-        random_state=42
-    )
+    X_train, X_test, y_train, y_test = get_raw_data()
 
     scaler = StandardScaler()
 
@@ -348,8 +332,8 @@ def get_raw_data():
         X,
         y,
         test_size=0.25,
-        stratify=y,
-        random_state=42
+        stratify=y,  #preserve same class distribution in train and test sets
+        random_state=42 #reproducibility
     )
 
     return (
