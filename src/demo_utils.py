@@ -29,7 +29,7 @@ def extract_features(audio_file):
     """Extract the same 518 acoustic features used by the training pipeline."""
     y, sr = librosa.load(audio_file, sr=None, mono=True)
     features = []
-
+    #Each audio descriptor is calculated and then summarized using those seven statistics.
     features.extend(summarize_feature(librosa.feature.chroma_stft(y=y, sr=sr)))
     features.extend(summarize_feature(librosa.feature.chroma_cqt(y=y, sr=sr)))
     features.extend(summarize_feature(librosa.feature.chroma_cens(y=y, sr=sr)))

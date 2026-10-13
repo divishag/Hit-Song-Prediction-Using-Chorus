@@ -66,7 +66,7 @@ def get_data():
         X_train
     )
 
-    X_test_scaled = scaler.transform(
+    X_test_scaled = scaler.transform( #test is supposed to be unseen data, so we only transform it using the scaler fitted on the training data
         X_test
     )
 
@@ -78,7 +78,7 @@ def get_data():
         X_train_scaled
     )
 
-    X_test_pca = pca.transform(
+    X_test_pca = pca.transform( #prevents data leakage
         X_test_scaled
     )
 
@@ -150,7 +150,7 @@ def evaluate_model(
 
         y_score = model.predict_proba(
             X_test
-        )[:, 1]
+        )[:, 1] #gives hit probability
 
     elif hasattr(model, "decision_function"):
 
@@ -168,7 +168,7 @@ def evaluate_model(
         y_pred
     )
 
-    balanced_accuracy = balanced_accuracy_score(
+    balanced_accuracy = balanced_accuracy_score( #average of recall obtained on each class
         y_test,
         y_pred
     )

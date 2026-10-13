@@ -84,7 +84,7 @@ grid_search = GridSearchCV(
 
 
     # F1 is used here to choose the final configuration.
-    scoring="f1",
+    scoring="f1", #validation fold does not influence PCA or scaling.
 
     n_jobs=-1,
     verbose=1

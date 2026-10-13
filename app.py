@@ -77,7 +77,6 @@ if uploaded is not None:
                     chorus_file = cached_chorus
 
                     source_message = (
-                        "Cached chorus found — using previously "
                         "extracted chorus."
                     )
 

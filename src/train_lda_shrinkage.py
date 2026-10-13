@@ -69,8 +69,8 @@ grid_search = GridSearchCV(
     estimator=pipeline,
     param_grid=param_grid,
     cv=5,
-    scoring="f1",
-    n_jobs=-1,
+    scoring="f1", #choose best shrinkage based on F1 score
+    n_jobs=-1, #use all cpu cores
     verbose=1
 )
 

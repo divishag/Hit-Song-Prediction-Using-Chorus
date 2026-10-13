@@ -134,8 +134,8 @@ print("LEAKAGE-FREE 5-FOLD CV")
 print("========================================")
 
 
-skf = StratifiedKFold(
-    n_splits=5,
+skf = StratifiedKFold( #preserve hit vs non-hit ratio in each fold
+    n_splits=5, 
     shuffle=True,
     random_state=42
 )

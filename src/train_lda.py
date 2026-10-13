@@ -16,17 +16,12 @@ from sklearn.metrics import (
 from ml_utils import get_raw_data
 
 
-# ==========================================================
-# DATA
-# ==========================================================
-
 X_train, X_test, y_train, y_test = get_raw_data()
 
 
-# ==========================================================
+
 # PIPELINE
-# Original plain LDA
-# ==========================================================
+
 
 model = Pipeline([
     ("scaler", StandardScaler()),
